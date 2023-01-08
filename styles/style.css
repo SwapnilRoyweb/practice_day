@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(../public/assets/images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgb(159, 156, 156);
+    background-blend-mode:multiply;
+    height: 760px;
+    width: 100%;
+}
+header .high-text{
+    height: 100%;
+    width: 600px;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header .high-text h1{
+    color: white;
+    margin-bottom: 20px;
+    font-weight:700;
+    font-size: 50px;
+}
+header .high-text p{
+    color: white;
+    margin-bottom: 20px;
+}
+header .high-text button{
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    margin-left: 250px;
+}
