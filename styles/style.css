@@ -72,7 +72,7 @@ header .high-text button{
     border-left: 0;
     border-right: 0;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding-bottom: 10px;
 }
 .donate .amount button{
@@ -95,4 +95,45 @@ header .high-text button{
 }
 .donate .taka{
     margin-bottom: 30px;
+}
+/* donate-plan section */
+.donate-plan{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.donate-plan > h1{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 50px;
+}
+.donate-plan > p{
+    color: gray;
+}
+.donate-plan .plans{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+.donate-plan .plans .food{
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 20px;
+    width: 300px;
+}
+.donate-plan .plans .shelter{
+    background-color:lightpink;
+    padding: 30px;
+    border-radius: 20px;
+    width: 300px;
+}
+.donate-plan .plans .education{
+    background-color: bisque;
+    padding: 30px;
+    border-radius: 20px;
+    width: 300px;
+}
+.donate-plan .plans > h3, p, img{
+    margin-bottom: 10px;
 }
